@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../PortWebsite/assets"
+		},
+		{
+			"path": "../PortWebsite/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "assets"
+	}
+}
