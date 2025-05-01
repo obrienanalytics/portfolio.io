@@ -1,0 +1,25 @@
+/* Flexbox for centering content in article */
+.post.featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Optional styling to control iframe size */
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  /* Ensure it takes up full width */
+    max-width: 1800px; /* Keeps iframe from getting too wide */
+}
+
+/* Make iframe responsive */
+iframe {
+    width: 100%; /* Makes the iframe responsive */
+    max-width: 1800px; /* Ensure it doesn't exceed 1800px */
+    height: 1000px; /* Adjust height as needed */
+    border: none;
+}
